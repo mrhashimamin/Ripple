@@ -492,6 +492,10 @@ hr {
         margin-right: 0;
     }
 
+    .nav-links a {
+        margin-left: 10px;
+    }
+
     hr {
         width: 50px;
     }
