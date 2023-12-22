@@ -551,13 +551,15 @@ hr {
         height: 20px;
     }
 
-    .post-text {
-        width: 170%;
+    .post-text,
+    .post-img {
+        width: 250%;
     }
 
     .post-img {
-        width: 90%;
+        margin-left: -50%;
     }
+
 
     .post-reactions a {
         font-size: 1.2rem;
@@ -580,5 +582,9 @@ hr {
         display: flex;
         justify-content: space-evenly;
         align-content: center;
+    }
+
+    .choosed-post {
+        display: none;
     }
 }
